@@ -1,0 +1,15 @@
+@import url("./default.css");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+:root {
+  --font-family: "Nunito", sans-serif;
+
+  --primary-color: #fff;
+}
+
+body {
+  background: url("../img/forest.jpg") no-repeat center/cover;
+
+  font-family: var(--font-family);
+  color: var(--primary-color);
+}
